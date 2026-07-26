@@ -100,7 +100,7 @@ function redirectBonusIncome(playerIncomeFromBonusesTable, players, addNewOrder)
 		-- Update income from all opponent players
 		elseif Mod.Settings.RedirectTo == RedirectToEnum.AllOpponents then
 			for otherPlayerID, _ in pairs(players) do
-				if players[hostPlayerID].Team ~= players[otherPlayerID].Team then
+				if players[hostPlayerID].Team ~= players[otherPlayerID].Team or players[hostPlayerID].Team == -1 then
 					playerIncomeModification[otherPlayerID] = playerIncomeModification[otherPlayerID] + income
 				end
 			end
