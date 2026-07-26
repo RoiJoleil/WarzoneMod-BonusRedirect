@@ -76,13 +76,15 @@ function Client_PresentConfigureUI(rootParent)
 		.SetOnValueChanged(function(isChecked) SetRedirectTo(RedirectToEnum.AllTeammates) end);
 	UI.CreateRadioButton(vert1)
 		.SetGroup(group1)
-		.SetText('One opponent')
+		.SetText('[WIP] One opponent')
 		.SetIsChecked(ModSettingRedirectTo == RedirectToEnum.OneOpponent)
+		.SetInteractable(flase)
 		.SetOnValueChanged(function(isChecked) SetRedirectTo(RedirectToEnum.OneOpponent) end);
 	UI.CreateRadioButton(vert1)
 		.SetGroup(group1)
-		.SetText('One teammate')
+		.SetText('[WIP] One teammate')
 		.SetIsChecked(ModSettingRedirectTo == RedirectToEnum.OneTeammate)
+		.SetInteractable(flase)
 		.SetOnValueChanged(function(isChecked) SetRedirectTo(RedirectToEnum.OneTeammate) end);
 
 

@@ -1,4 +1,3 @@
-
 function Client_PresentSettingsUI(rootParent)
 	UI.CreateLabel(rootParent)
 		.SetText("Will redirect from " .. Mod.Settings.RedirectFrom .. " bonuses.");
