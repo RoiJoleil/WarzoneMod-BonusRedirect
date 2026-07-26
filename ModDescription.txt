@@ -1,1 +1,53 @@
-UNDER CONSTRUCTION
+Allows the game creator to set up how bonuses are effecting players in the game.
+The game creator has the option to choose which bonuses will be effected by this Mod:
+- All bonuses
+- Positive bonuses
+- Negative bonuses
+
+The game creator can then also choose who this income will be redirect to (relative to the person holding the bonus):
+- All other players
+- All opponents
+- All teammates
+- One opponent
+- One teammate
+
+The creator can also choose if the person holding the bonus should still be affected himself.
+
+
+
+Gamemode Suggestions:
+
+- Toxic Income Game
+Instead of each player gaining income by taking positive bonuses, each player will reduce their opponents income by taking negative bonuses.
+For this gamemode, the base-income should be increased and the map should be small.
+All bonuses should be turned to a negative equivelant.
+A reinforcement card that is gained each turn should also be added.
+
+Its recommended to use the mod DistributionRework for this gamemode, as by default the war.app game engine doesnt spawn warlords on negative bonuses.
+
+This gamemode will result in a heavy brawllike game.
+
+Settings:
+: All bonuses
+: All opponents | One opponent
+
+
+- Team Swap Income Game
+Instead of each player gaining their own income, they get the income from their teammates. 
+For this gamemode, bonuses value should be reduce if the teamsize is higher than 2 players and 'All teammates' is selected.
+
+Settings:
+: All bonuses
+: All teammates | One teammate
+
+
+
+- Modified Strategic 1v1
+Create a new game and update the mod to include some negative bonuses.
+Now these bonuses add a new strategic dimension as not only can you increase your own income from positive bonuses but also decrease income from the opponent with negative bonuses.
+
+It is recommended to carefully balance and test this, as negative bonuses are stronger than their positive equivelant, even if the value itself wanst changed.
+
+Settings:
+: Negative bonuses
+: All opponents | One opponent
