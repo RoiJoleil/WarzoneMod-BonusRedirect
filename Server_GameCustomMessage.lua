@@ -1,5 +1,4 @@
 function Server_GameCustomMessage(game, playerID, payload, setReturnTable)
-    print("Test Server")
     local playerGameData = Mod.PlayerGameData
     if playerGameData[playerID] == nil then
         playerGameData[playerID] = {}
